@@ -271,7 +271,9 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/Deendayal_dhakad">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/Deendayal_dhakad>[Deendayal_Dhakad]</a></b>"""
+    CAPTION = """@mcfilter11<a href="https://t.me/mcfilter11"><b>{file_name}</b></a>
+<b>⏤‌𝗝⌡𝗼𝗶𝗻 ➥「 @mallu_movie34 」</b></a>
+"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
