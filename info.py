@@ -75,7 +75,7 @@ VERIFY = bool(environ.get('VERIFY', False))  # Verification On (True) / Off (Fal
 DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 1))  # Add time in hours
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-100241329662'))  # Log channel id (make sure bot is admin)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+fEj_cfBXH9czZTE1')  # How to open tutorial link for verification
-
+EMOJI_MODE = bool(environ.get('EMOJI_MODE', False))  # Emoji status On (True) / Off (False)
 # ============================
 # Link Shortener Configuration
 # ============================
