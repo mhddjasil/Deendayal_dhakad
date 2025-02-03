@@ -61,7 +61,7 @@ async def start(client, message):
                     InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🕵️‍♂️ Tᴏᴘ Sᴇᴀʀᴄʜɪɴɢ', callback_data="topsearch"),
-                    InlineKeyboardButton(' sᴜᴘᴘᴏʀᴛ 🔄', callback_data='channels')
+                    InlineKeyboardButton(' ᴍᴄ sᴜᴘᴘᴏʀᴛ 🔄', callback_data='channels')
                 ],[
                     InlineKeyboardButton(' ʜᴇʟᴘ 🚨', callback_data='help'),
                     InlineKeyboardButton(' ᴀʙᴏᴜᴛ ❓ ', callback_data='about')
@@ -105,10 +105,7 @@ async def start(client, message):
                     f"👋 Hello {message.from_user.mention}\n\n"
                     "Yᴏᴜ ʜᴀᴠᴇ ɴᴏᴛ Jᴏɪɴᴇᴅ ᴀʟʟ ᴏᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟs.\n"
                     "Pʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ **Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟs** ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴀɴᴅ ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ ᴊᴏɪɴ **ᴀʟʟ** ᴄʜᴀɴɴᴇʟs ʟɪsᴛᴇᴅ.\n"
-                    "Aғᴛᴇʀ ᴛʜᴀᴛ, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɢᴀɪɴ.\n\n"
-                    "आपने हमारे **सभी Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟs** को ज्वाइन नहीं किया है।\n"
-                    "**Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟs** वाले बटन पर Cʟɪᴄᴋ करें। और सुनिश्चित करें कि आपने **सभी चैनल्स** को ज्वाइन किया है।\n"
-                    "इसके बाद आप फिर से ᴛʀʏ करें।..")
+                    "Aғᴛᴇʀ ᴛʜᴀᴛ, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɢᴀɪɴ.n..")
                 await message.reply_photo(
                     photo=random.choice(FSUB_PICS),
                     caption=caption,
