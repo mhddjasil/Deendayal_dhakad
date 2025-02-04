@@ -254,7 +254,7 @@ async def start(client, message):
                 ]
             else:
                 btn = [
-                    [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=https://t.me/+1nLkJwED35UyOWQ1)]
+                    [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url="https://t.me/+1nLkJwED35UyOWQ1")]
                 ]
             try:
                 await client.send_cached_media(
